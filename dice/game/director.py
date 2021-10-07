@@ -32,6 +32,7 @@ class Director:
             self.do_updates()
             self.do_outputs()
 
+    #1
     def get_inputs(self):
         """Gets the inputs at the beginning of each round of play. In this case,
         that means throwing the dice.
@@ -40,7 +41,8 @@ class Director:
             self (Director): An instance of Director.
         """
         self.thrower.throw_dice()
-        
+
+    #2 
     def do_updates(self):
         """Updates the important game information for each round of play. In 
         this case, that means updating the score.
@@ -51,6 +53,8 @@ class Director:
         points = self.thrower.get_points()
         self.score += points
         
+
+    #3    
     def do_outputs(self):
         """Outputs the important game information for each round of play. In 
         this case, that means the dice that were rolled and the score.

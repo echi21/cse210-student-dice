@@ -34,4 +34,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* TODO: C. Ezequiel Iannone -> c.ezeiannone@gmail.com  /  ian21001@byui.edu
